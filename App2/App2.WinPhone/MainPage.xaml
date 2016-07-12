@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="App2.WinPhone.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App2.WinPhone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Height="619" Margin="25,11.333,10,9.667" Width="365">
+        <Button Content="Get Wather&#xD;&#xA;" x:Name="Button" Click="Button_Click" Height="74" />
+        <ListView x:Name="listView"/>
+    </StackPanel>
+</Page>
