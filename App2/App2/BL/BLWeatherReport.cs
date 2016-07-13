@@ -13,7 +13,7 @@ namespace App2.BL
     {
         public string Lattitude { get; set; }
         public string Longitude { get; set; }
-        public string ApiId { get; } = "0f17ae51a8691b2133462e309cea8db6";
+        public string ApiId { get; } = "Get API Id from openweathermap";
         public string DistrictUrl { get; set; }
         public RootObject WeatherList { get; set; }
 
